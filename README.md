@@ -11,6 +11,7 @@ Zadanie jest następujące: Napisać kod klasy BaseService do komunikacji z rest
 - wymuszać możliwie najlepsze praktyki podczas korzystania z niej
 ## Klasa bazowa nie musi:
 - implementowac logiki zapytań HTTP, można użyć gotowej biblioteki jak [Faraday](https://github.com/lostisland/faraday)
+- implementować parsowania JSON, można użyć zewnętrznej biblioteki
 - wykonywać żadnych operacji na danych, takich jak zapisywanie ich do bazy danych lub pliku
 - nie musi działać w środowisku Ruby on Rails, może być napisana w "czystym rubym"
 
