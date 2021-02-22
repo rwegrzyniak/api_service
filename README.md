@@ -7,6 +7,7 @@ Zadanie jest następujące: Napisać kod klasy BaseService do komunikacji z rest
 - zapewniać interfejs dostępu do odpowiedzi serwera
 - wymuszać implementację metody `call()` w klasach potomnych
 - udostępniać intefejs do stwierdzenia czy operacja zakonczyła się suckesem lub błędem
+- maksymalnie ułatwiać implementację konkretnych serwisów
 - wymuszać możliwie najlepsze praktyki podczas korzystania z niej
 ## Klasa bazowa nie musi:
 - implementowac logiki zapytań HTTP, można użyć gotowej biblioteki jak [Faraday](https://github.com/lostisland/faraday)
